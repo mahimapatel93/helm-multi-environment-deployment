@@ -323,4 +323,13 @@ myapp-stage  → 2 pods
 myapp-prod   → 5 pods
 ```
 
+# Project Workflow
+
+1. Install required tools (kubectl, Helm, Kubernetes cluster)
+2. Create Helm chart
+3. Configure values.yaml
+4. Create environment values files (dev, stage, prod)
+5. Deploy application using Helm
+6. Kubernetes creates pods based on the selected environment configuration
+
 Same application, different configuration.
